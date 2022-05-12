@@ -1,0 +1,36 @@
+.movie-items{
+    position: relative;
+    display: block;
+    min-height: 325px;
+    border-radius: 5px;
+    background-color: #212121;
+    border-color: 5px solid blue;
+    &-image{
+        img{
+            width: 100%;
+            border-radius: 5px;
+            height: 275px;
+            object-fit: cover;
+        }
+    }
+    &-rating{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 10px;
+        left: 10px;
+        background-color: #414141;
+        border-radius: 5px;
+        padding: 5px 10px;
+
+        .mat-icon{
+            color: yellow;
+        }
+    }
+    &-title{
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        margin: 0.5rem;
+    }
+}
